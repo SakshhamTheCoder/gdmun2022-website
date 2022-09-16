@@ -221,23 +221,23 @@ nav {
     align-content: center;
 }
 
-.card-img-top {
+#committees .card-img-top {
     height: auto;
     width: 30vw !important;
     align-self: center;
 }
 
-.card {
+#committees .card {
     background-color: #201d1c !important;
     color: #b1b8be;
     max-width: min-content;
 }
 
-.card-hover-text {
+#committees .card-hover-text {
     display: none;
 }
 
-.card-title a:hover {
+#committees .card-title a:hover {
     color: #ded38a;
 }
 
@@ -249,11 +249,11 @@ nav {
     display: block;
 } */
 
-.card-text {
+#committees .card-text {
     display: none;
 }
 
-.card-hover-text {
+#committees .card-hover-text {
     padding: 10px;
     display: block;
 }
@@ -267,7 +267,7 @@ nav {
     text-align: center;
 }
 
-.card-text {
+#committees .card-text {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -310,7 +310,7 @@ th {
 }
 
 #tenet {
-    min-height: 80vh;
+    min-height: 100vh;
     background-color: #232323;
     color: aliceblue;
     padding: 50px;
